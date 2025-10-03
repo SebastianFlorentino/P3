@@ -1,0 +1,66 @@
+﻿@model  List<ProjectWeb_1.Models.ViewModel.QueryViewModel>
+
+@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Views/Shared/_LayoutApp.cshtml";
+}
+
+<h2>Consulta</h2>
+
+<div class="col">
+    <button class="btn btn-success"
+            onclick="document.location.href = '@Url.Content("~/User/Add")'">Nuevo</button>
+    <button class="btn btn-warning"
+            onclick="document.location.href = '@Url.Content("~/")'">Volver atras</button>
+</div>
+
+<br />
+<br />
+
+<div class="row">
+    <table class="table table-bordered">
+        <thead class="bg-primary">
+            <tr>
+                <th>Id</th>
+                <th>Email</th>
+                <th>Edad</th>
+                <th>Accion a tomar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Objs in Model)
+            {
+                <tr>
+                    <td>@Objs.Id</td>
+                    <td>@Objs.Email</td>
+                    <td>@Objs.Edad</td>
+                    <td>
+                        <button class="btn btn-danger"
+                                onclick="jsOcultarRegistro(@Objs.Id)">Borrar</button>
+
+                        <button class="btn btn-info"
+                                onclick="">Editar</button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function jsOcultarRegistro(nId) {
+        if (confirm("Deseas borrar el registro?")) {
+            url = "@Url.Content("~/User/OcultarRegistro")" + "/" + nId
+
+            $.post(url, function (data) {
+                if (data == "1") {
+                    document.location.href = "@Url.Content("~/User/Query")"
+                }
+                else {
+                    alert("Registro no fue borrado")
+                }
+            })
+        }
+    }
+</script>
