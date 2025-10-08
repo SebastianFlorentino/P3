@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\models\\viewmodel\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\models\\viewmodel\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\controllers\\cerrarsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\cerrarsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T02:20:52.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccederController.cs",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\AccederController.cs",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Controllers\\AccederController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:20:05.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,98 +66,23 @@
               "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Query.cshtml",
               "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
               "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T01:55:02.999Z",
+              "WhenOpened": "2025-10-07T01:48:36.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Add.cshtml",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Add.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Add.cshtml",
-              "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T01:36:38.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProjectWeb_1\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAG4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T02:27:03.987Z",
+              "WhenOpened": "2025-10-07T01:49:55.992Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsersViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\UsersViewModel.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Models\\ViewModel\\UsersViewModel.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\UsersViewModel.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Models\\ViewModel\\UsersViewModel.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAywCkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T01:00:23.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAEBVwBgAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-01T00:16:57.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CerrarSessionController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\CerrarSessionController.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\CerrarSessionController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\CerrarSessionController.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Controllers\\CerrarSessionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T00:08:45.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "RelativeToolTip": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T01:43:54.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccederController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\AccederController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Controllers\\AccederController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:26:14.306Z"
             }
           ]
         }

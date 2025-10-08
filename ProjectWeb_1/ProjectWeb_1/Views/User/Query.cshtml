@@ -39,7 +39,9 @@
                                 onclick="jsOcultarRegistro(@Objs.Id)">Borrar</button>
 
                         <button class="btn btn-info"
-                                onclick="">Editar</button>
+                                onclick="document.location.href='@Url.Content("~/User/Edit")/@Objs.Id'">
+                            Editar
+                        </button>
                     </td>
                 </tr>
 
@@ -63,4 +65,10 @@
             })
         }
     }
+
+            
+
+
+    
+    
 </script>

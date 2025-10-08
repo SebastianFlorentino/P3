@@ -64,13 +64,13 @@ namespace ProjectWeb_1.Controllers
         }
 
         [HttpGet]
-        public ActionResult Edit(int nId)
+        public ActionResult Edit(int id)
         {
             EditUsersViewModel model = new EditUsersViewModel();
 
             using (var db  = new DBMVCEntities())
             {
-                var tabla = db.USERS.Find(nId);
+                var tabla = db.USERS.Find(id);
 
                 model.Id = tabla.ID;
                 model.Nombre = tabla.Nombre;

@@ -230,6 +230,7 @@
     <Content Include="Views\Acceder\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutApp.cshtml" />
     <Content Include="Views\User\Add.cshtml" />
+    <Content Include="Views\User\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
