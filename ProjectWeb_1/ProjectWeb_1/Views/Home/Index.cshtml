@@ -1,33 +1,64 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Inicio";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+<main class="container py-5 fade-in">
+
+    <!-- HERO PRINCIPAL -->
+    <section class="hero text-center rounded-4 shadow-lg mb-5">
+        <div class="hero-content">
+            <h1 class="fw-bold mb-3">Innovación que impulsa tu negocio 🚀</h1>
+            <p class="lead mb-4">
+                Transformamos ideas en soluciones digitales con tecnología moderna y un diseño impecable.
+            </p>
+            <a href="@Url.Action("Query", "User")" class="btn btn-main px-4 py-2">Comenzar ahora</a>
+        </div>
     </section>
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
-    </div>
+    <!-- FEATURES SECTION -->
+    <section class="row text-center g-4 slide-up">
+        <div class="col-md-4">
+            <div class="card border-0 h-100 shadow-sm p-4 rounded-4 hover-effect">
+                <div class="mb-3 text-primary">
+                    <i class="bi bi-code-slash display-5"></i>
+                </div>
+                <h3 class="fw-semibold mb-3">Desarrollo Ágil</h3>
+                <p class="text-muted">
+                    Implementamos soluciones rápidas y eficientes con un enfoque en calidad, escalabilidad y entrega continua.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card border-0 h-100 shadow-sm p-4 rounded-4 hover-effect">
+                <div class="mb-3 text-primary">
+                    <i class="bi bi-lightning-charge-fill display-5"></i>
+                </div>
+                <h3 class="fw-semibold mb-3">Rendimiento Óptimo</h3>
+                <p class="text-muted">
+                    Interfaces modernas, ligeras y diseñadas para ofrecer la mejor experiencia de usuario en cualquier dispositivo.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card border-0 h-100 shadow-sm p-4 rounded-4 hover-effect">
+                <div class="mb-3 text-primary">
+                    <i class="bi bi-shield-check display-5"></i>
+                </div>
+                <h3 class="fw-semibold mb-3">Seguridad Avanzada</h3>
+                <p class="text-muted">
+                    Protegemos tus datos con protocolos seguros, autenticación moderna y monitoreo constante de vulnerabilidades.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="text-center mt-5 py-5 rounded-4" style="background: linear-gradient(135deg, #0072ff, #00f2fe); color: #fff;">
+        <h2 class="fw-bold mb-3">¿Listo para llevar tu negocio al siguiente nivel?</h2>
+        <p class="mb-4">Da el primer paso hacia la transformación digital con <strong>TechVision</strong>.</p>
+        <a href="@Url.Action("Contact", "Home")" class="btn btn-light btn-lg fw-semibold px-4">Contáctanos</a>
+    </section>
+
 </main>

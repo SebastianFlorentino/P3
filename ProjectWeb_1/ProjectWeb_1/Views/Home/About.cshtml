@@ -1,9 +1,52 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Sobre Nosotros";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
 
-    <p>Use this area to provide additional information.</p>
+<main class="container py-5 fade-in">
+
+    <!-- 🦋 HERO SECTION -->
+    <section class="hero text-center rounded-4 shadow-lg mb-5">
+        <div class="hero-content">
+            <h1 class="fw-bold mb-3">Conectamos innovación con propósito</h1>
+            <p class="lead mb-4">Somos un equipo apasionado por la tecnología, la creatividad y el impacto positivo.</p>
+            <a href="@Url.Action("Contact", "Home")" class="btn btn-main">Contáctanos</a>
+        </div>
+    </section>
+
+    <!--  ABOUT SECTION -->
+    <section class="about-details text-center">
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-md-6">
+                <div class="about-item card p-4 slide-up">
+                    <div class="icon mb-3 text-primary">
+                        <i class="bi bi-people-fill fs-1"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-3">Quiénes Somos</h3>
+                    <p class="text-muted">
+                        Somos una startup tecnológica enfocada en crear soluciones digitales que transforman negocios.
+                        Creemos en el poder del trabajo en equipo, la innovación constante y la tecnología con propósito.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-md-6">
+                <div class="about-item card p-4 slide-up">
+                    <div class="icon mb-3 text-primary">
+                        <i class="bi bi-bullseye fs-1"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-3">Nuestra Misión</h3>
+                    <p class="text-muted">
+                        Impulsar a empresas y emprendedores mediante herramientas tecnológicas modernas, seguras y escalables,
+                        que conviertan sus ideas en realidades digitales de alto impacto.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 </main>
+

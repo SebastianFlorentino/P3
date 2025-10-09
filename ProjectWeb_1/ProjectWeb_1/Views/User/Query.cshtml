@@ -1,74 +1,101 @@
-﻿@model  List<ProjectWeb_1.Models.ViewModel.QueryViewModel>
+﻿@model List<ProjectWeb_1.Models.ViewModel.QueryViewModel>
 
 @{
-    ViewBag.Title = "Consulta";
+    ViewBag.Title = "Consulta de Usuarios";
     Layout = "~/Views/Shared/_LayoutApp.cshtml";
 }
 
-<h2>Consulta</h2>
+<main class="container py-5 fade-in">
+    <!-- HERO -->
+    <section class="hero text-center rounded-4 shadow-lg mb-5">
+        <div class="hero-content">
+            <h1 class="fw-bold mb-3">Gestión de Usuarios</h1>
+            <p class="lead">Visualiza, edita o elimina registros de manera rápida y sencilla.</p>
+        </div>
+    </section>
 
-<div class="col">
-    <button class="btn btn-success"
-            onclick="document.location.href = '@Url.Content("~/User/Add")'">Nuevo</button>
-    <button class="btn btn-warning"
-            onclick="document.location.href = '@Url.Content("~/")'">Volver atras</button>
-</div>
+    <!-- ACCIONES -->
+    <section class="d-flex justify-content-center gap-3 mb-4 slide-up">
+        <button class="btn btn-main px-4" onclick="document.location.href='@Url.Content("~/User/Add")'">
+            <i class="bi bi-person-plus-fill me-1"></i> Nuevo Usuario
+        </button>
+        <button class="btn btn-outline-secondary px-4" onclick="document.location.href='@Url.Content("~/")'">
+            <i class="bi bi-arrow-left-circle me-1"></i> Volver
+        </button>
+    </section>
 
-<br />
-<br />
+    <!-- TABLA -->
+    <section class="slide-up">
+        <div class="card shadow-lg border-0 rounded-4 p-4">
+            <div class="table-responsive">
+                <table class="table align-middle table-hover">
+                    <thead class="text-white" style="background: linear-gradient(90deg, #0072ff, #00c6ff);">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Correo Electrónico</th>
+                            <th scope="col">Edad</th>
+                            <th scope="col" class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var Objs in Model)
+                        {
+                            <tr>
+                                <td>@Objs.Id</td>
+                                <td>@Objs.Email</td>
+                                <td>@Objs.Edad</td>
+                                <td class="text-center">
+                                    <button class="btn btn-danger btn-sm me-1"
+                                            onclick="jsEliminarUsuario(@Objs.Id, '@Objs.Email')">
+                                        <i class="bi bi-trash3"></i>
+                                    </button>
+                                    <button class="btn btn-info btn-sm text-white"
+                                            onclick="document.location.href='@Url.Content("~/User/Edit")/@Objs.Id'">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
 
-<div class="row">
-    <table class="table table-bordered">
-        <thead class="bg-primary">
-            <tr>
-                <th>Id</th>
-                <th>Email</th>
-                <th>Edad</th>
-                <th>Accion a tomar</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var Objs in Model)
-            {
-                <tr>
-                    <td>@Objs.Id</td>
-                    <td>@Objs.Email</td>
-                    <td>@Objs.Edad</td>
-                    <td>
-                        <button class="btn btn-danger"
-                                onclick="jsOcultarRegistro(@Objs.Id)">Borrar</button>
-
-                        <button class="btn btn-info"
-                                onclick="document.location.href='@Url.Content("~/User/Edit")/@Objs.Id'">
-                            Editar
-                        </button>
-                    </td>
-                </tr>
-
-            }
-        </tbody>
-    </table>
-</div>
-
-<script>
-    function jsOcultarRegistro(nId) {
-        if (confirm("Deseas borrar el registro?")) {
-            url = "@Url.Content("~/User/OcultarRegistro")" + "/" + nId
-
-            $.post(url, function (data) {
-                if (data == "1") {
-                    document.location.href = "@Url.Content("~/User/Query")"
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function jsEliminarUsuario(id, email) {
+            Swal.fire({
+                title: "¿Eliminar usuario?",
+                html: "Estás a punto de borrar el usuario:<br><b>" + email + "</b>",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#0072ff",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Sí, eliminar",
+                cancelButtonText: "Cancelar"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    var url = "@Url.Content("~/User/OcultarRegistro")" + "/" + id;
+                    $.post(url, function (data) {
+                        if (data == "1") {
+                            Swal.fire({
+                                icon: "success",
+                                title: "Usuario eliminado",
+                                text: "El registro se eliminó correctamente.",
+                                timer: 1500,
+                                showConfirmButton: false
+                            }).then(() => {
+                                document.location.href = "@Url.Content("~/User/Query")";
+                            });
+                        } else {
+                            Swal.fire("Error", "El registro no fue borrado", "error");
+                        }
+                    });
                 }
-                else {
-                    alert("Registro no fue borrado")
-                }
-            })
+            });
         }
-    }
-
-            
-
-
-    
-    
-</script>
+    </script>
+}
