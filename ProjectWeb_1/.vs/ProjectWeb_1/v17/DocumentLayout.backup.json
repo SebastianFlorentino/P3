@@ -1,22 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\",
+  "WorkspaceRootPath": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\asnei\\downloads\\p3-main\\p3-main\\projectweb_1\\projectweb_1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\shared\\_layoutapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\shared\\_layoutapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\projectweb_1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +82,224 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Add.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Add.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Add.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Add.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T23:24:54.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "RelativeToolTip": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwGMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T02:20:52.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T23:23:27.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:49:55.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T02:20:52.345Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccederController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\AccederController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Controllers\\AccederController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T02:20:05.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Query.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T01:48:36.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T20:36:50.24Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGoAAAA1AAAAAAAAAA==",
+              "Title": "AccederController.cs",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\AccederController.cs",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Controllers\\AccederController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T01:49:55.992Z",
+              "WhenOpened": "2025-10-08T02:20:05.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutApp.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\_LayoutApp.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Shared\\_LayoutApp.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Shared\\_LayoutApp.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Shared\\_LayoutApp.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAqwIcAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T23:20:02.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Web.config",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Web.config",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Web.config",
+              "RelativeToolTip": "ProjectWeb_1\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-08T23:38:54.029Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T23:26:10.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T23:28:11.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Web.config",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Web.config",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-08T23:29:19.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Global.asax.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:32:15.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\packages.config",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\packages.config",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\packages.config",
+              "RelativeToolTip": "ProjectWeb_1\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-08T23:33:20.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T20:31:03.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T20:30:59.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T20:30:12.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Query.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Query.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
+              "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Query.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T01:48:36.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Content\\Site.css",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\asnei\\Downloads\\P3-main\\P3-main\\ProjectWeb_1\\ProjectWeb_1\\Content\\Site.css",
+              "RelativeToolTip": "ProjectWeb_1\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-08T20:32:13.679Z"
             }
           ]
         }

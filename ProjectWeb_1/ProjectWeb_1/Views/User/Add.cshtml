@@ -4,43 +4,66 @@
     Layout = "~/Views/Shared/_LayoutApp.cshtml";
 }
 
-<h2>Add</h2>
+<div class="container fade-in">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg border-0 rounded-4 p-4 mt-4">
+                <div class="card-body">
+                    <h2 class="fw-bold text-primary mb-4 text-center">
+                        <i class="bi bi-person-plus-fill me-2"></i>Nuevo Registro
+                    </h2>
 
-<div class="col-md-12">
-    <br />
-    <br />
+                    @using (Html.BeginForm("Add", "User", FormMethod.Post, new { role = "form" }))
+                    {
+                        <div class="row g-3">
+                            <!-- NOMBRE -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Nombre</label>
+                                @Html.TextBoxFor(d => d.Nombre, new { @class = "form-control", placeholder = "Escribe el nombre completo" })
+                                @Html.ValidationMessage("Nombre", new { @class = "text-danger small" })
+                            </div>
 
-    @using (Html.BeginForm("Add", "User", FormMethod.Post, new { role = "form", @class = "" }))
-    {
-        @Html.LabelFor(d => d.Nombre)
-        @Html.TextBoxFor(d => d.Nombre, new { @class = "form-control" })
-        @Html.ValidationMessage("Nombre", new { @class = "text-danger" })
-        <br />
+                            <!-- EMAIL -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Correo Electrónico</label>
+                                @Html.TextBoxFor(d => d.Email, new { @class = "form-control", placeholder = "tucorreo@ejemplo.com" })
+                                @Html.ValidationMessage("Email", new { @class = "text-danger small" })
+                            </div>
 
-        @Html.LabelFor(d => d.Email)
-        @Html.TextBoxFor(d => d.Email, new { @class = "form-control" })
-        @Html.ValidationMessage("Email", new { @class = "text-danger" })
-        <br />
+                            <!-- CONTRASEÑA -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Contraseña</label>
+                                @Html.PasswordFor(d => d.Contrasenna, new { @class = "form-control", placeholder = "********" })
+                                @Html.ValidationMessage("Contrasenna", new { @class = "text-danger small" })
+                            </div>
 
-        @Html.LabelFor(d => d.Contrasenna)
-        @Html.PasswordFor(d => d.Contrasenna, new { @class = "form-control" })//PaswordFor en vez de TextBoxFor
-        @Html.ValidationMessage("Contrasenna", new { @class = "text-danger" })
-        <br />
+                            <!-- CONFIRMAR CONTRASEÑA -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Confirmar Contraseña</label>
+                                @Html.PasswordFor(d => d.ConfirmarContrasenna, new { @class = "form-control", placeholder = "********" })
+                                @Html.ValidationMessage("ConfirmarContrasenna", new { @class = "text-danger small" })
+                            </div>
 
-        @Html.LabelFor(d => d.ConfirmarContrasenna)
-        @Html.PasswordFor(d => d.ConfirmarContrasenna, new { @class = "form-control" })//PaswordFor en vez de TextBoxFor
-        @Html.ValidationMessage("ConfirmarContrasenna", new { @class = "text-danger" })
-        <br />
+                            <!-- EDAD -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Edad</label>
+                                @Html.TextBoxFor(d => d.Edad, new { @class = "form-control", placeholder = "Ej. 25" })
+                                @Html.ValidationMessage("Edad", new { @class = "text-danger small" })
+                            </div>
+                        </div>
 
-        @Html.LabelFor(d => d.Edad)
-        @Html.TextBoxFor(d => d.Edad, new { @class = "form-control" })
-        @Html.ValidationMessage("Edad", new { @class = "text-danger" })
-        <br />
-
-        <div class="float-start">
-            <button class="btn btn-success btn-lg">Guardar</button>
-            <button class="btn btn-info btn-lg" 
-                    onclick="document.location.href ='@Url.Content("~/User/Query")'">Volver Atras</button>
+                        <div class="d-flex justify-content-center mt-5 gap-3">
+                            <button type="submit" class="btn btn-main px-4">
+                                <i class="bi bi-save me-1"></i> Guardar
+                            </button>
+                            <a href="@Url.Content("~/User/Query")" class="btn btn-outline-secondary px-4">
+                                <i class="bi bi-arrow-left-circle me-1"></i> Volver Atrás
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
         </div>
-    }
+    </div>
 </div>
+
