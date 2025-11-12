@@ -15,24 +15,57 @@ namespace ProjectWeb_1.Controllers
         [HttpGet]
         public JsonResult ListarTipoPropiedad()
         {
-            List<TipoPropiedad> oLista = new List<TipoPropiedad>();
+            #region prueba
 
-            oLista = TipoPropiedadMetodo.Instancia.Listar();
+            try
+            {
+                var tiposPropiedad = TipoPropiedadMetodo.Instancia.Listar();
+                return Json(new { data = tiposPropiedad }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
 
-            //se retorna la lista en formato Json
-            return Json(new {data = oLista}, JsonRequestBehavior.AllowGet);
+                return Json(new {resultado = false, mensaje = "Data invalida"});
+            }
+
+            #endregion
+
+            //List<TipoPropiedad> oLista = new List<TipoPropiedad>();
+
+            //oLista = TipoPropiedadMetodo.Instancia.Listar();
+
+            ////se retorna la lista en formato Json
+            //return Json(new {data = oLista}, JsonRequestBehavior.AllowGet);
         }
 
         [HttpPost]
         public JsonResult GuardarTipoPropiedad (TipoPropiedad objeto)
         {
-            bool respuesta = false;
-
-            respuesta = (objeto.IdTipoPropiedad == 0)
+            if(!ModelState.IsValid)
+            {
+                return Json(new { resultado = false, mensaje = "Data invalida" });
+            }
+            #region prueba
+            try
+            {
+                bool respuesta = (objeto.IdTipoPropiedad == 0)
                 ? TipoPropiedadMetodo.Instancia.Registrar(objeto)
                 :TipoPropiedadMetodo.Instancia.Modificar(objeto);
 
-            return Json(new { data = objeto }, JsonRequestBehavior.AllowGet);
+            return Json(new { resultado = respuesta }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex) 
+            {
+
+                return Json(new {resultado = false, mensaje = ex.Message});
+            }
+            #endregion
+
+            //bool respuesta = (objeto.IdTipoPropiedad == 0)
+            //    ? TipoPropiedadMetodo.Instancia.Registrar(objeto)
+            //    :TipoPropiedadMetodo.Instancia.Modificar(objeto);
+
+            //return Json(new { data = objeto }, JsonRequestBehavior.AllowGet);
         }
 
         [HttpPost]
@@ -40,9 +73,9 @@ namespace ProjectWeb_1.Controllers
         {
             bool respuesta = false;
 
-           
+           respuesta = TipoPropiedadMetodo.Instancia.Eliminar(id);
 
-            return Json(new { data = objeto }, JsonRequestBehavior.AllowGet);
+            return Json(new { resultado = respuesta }, JsonRequestBehavior.AllowGet);
         }
     }
 }

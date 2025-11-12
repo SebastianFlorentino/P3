@@ -4,101 +4,101 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Web;
-using System.Web.UI.WebControls;
 
 namespace ProjectWeb_1.Metodos
 {
-    public class TipoPropiedadMetodo
+    public class CondicionMetodo
     {
-        private static TipoPropiedadMetodo _instancia = null;
+        private static CondicionMetodo _instance = null;
 
-        public TipoPropiedadMetodo()
+        public CondicionMetodo() {}
+
+        public static CondicionMetodo Instancia
         {
-
-        }
-
-        public static TipoPropiedadMetodo Instancia
-        {
-            get 
+            get
             {
-                if (_instancia == null) 
+                if( _instance == null)
                 {
-                    _instancia= new TipoPropiedadMetodo();
+                    _instance = new CondicionMetodo();
                 }
 
-                return _instancia;
+                return _instance;
             }
         }
-        
-        public List<TipoPropiedad> Listar() 
-        {
-            List<TipoPropiedad> rptListaTipoPropiedad = new List<TipoPropiedad>();
 
-            using (SqlConnection oConnection = new SqlConnection(cnn.db))
+        public List<CondicionViewModel> Consultar()
+        {
+            List<CondicionViewModel> objCondicion = new List<CondicionViewModel>();
+
+            using (SqlConnection cxn = new SqlConnection(cnn.db))
             {
-                using (SqlCommand cmd = new SqlCommand("sp_ObtenerTipoPropiedad", oConnection))
+                using (SqlCommand cmd = new SqlCommand("sp_ObtenerCondicionPropiedad", cxn))
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cmd.CommandType = CommandType.StoredProcedure;
 
                     try
                     {
-                        oConnection.Open();
+                        cxn.Open();
 
-                        using (SqlDataReader dr = cmd.ExecuteReader())
+                        using(SqlDataReader rcd  = cmd.ExecuteReader())
                         {
-                            while (dr.Read())
+                            while (rcd.Read())
                             {
-                                rptListaTipoPropiedad.Add(new TipoPropiedad()
+                                objCondicion.Add(new CondicionViewModel()
                                 {
-                                    IdTipoPropiedad = Convert.ToInt32(dr["IdTipoPropiedad"]),
-                                    Descripcion = dr["Descripcion"].ToString(),
-                                    Activo = Convert.ToBoolean(dr["Activo"])
+                                    IdCondicion = Convert.ToInt32(rcd["IdCondicion"]),
+                                    Descripcion = rcd["Descripcion"].ToString(),
+                                    Activo = Convert.ToBoolean(rcd["Activo"])
                                 });
                             }
                         }
 
-                        return rptListaTipoPropiedad;
+                        return objCondicion;
                     }
                     catch (Exception ex)
                     {
+
                         return null;
-                    }  
+                    }
                 }
             }
         }
 
-        public bool Registrar(TipoPropiedad oTipoPropiedad)
+        public bool Registrar(CondicionViewModel oCondicion)
         {
             bool respuesta = true;
 
-            using (SqlConnection oConnection = new SqlConnection(cnn.db))
+            using(SqlConnection cxn = new SqlConnection(cnn.db))
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("sp_RegistrarTipoPropiedad", oConnection);
+                    cxn.Open();
 
-                    cmd.Parameters.AddWithValue("Descripcion", oTipoPropiedad.Descripcion);
+                    SqlCommand cmd = new SqlCommand("sp_RegistraCondicionPropiedad", cxn);
+
+                    cmd.Parameters.AddWithValue("Descripcion", oCondicion.Descripcion);
                     cmd.Parameters.Add("Resultado", SqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    oConnection.Open();
                     cmd.ExecuteNonQuery();
 
                     respuesta = Convert.ToBoolean(cmd.Parameters["Resultado"].Value);
+
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
 
                     respuesta = false;
                 }
-
-                return respuesta;
             }
+
+            return respuesta;
         }
 
-        public bool Modificar(TipoPropiedad oTipoPropiedad)
+        public bool Modificar(CondicionViewModel oCondicion)
         {
 
             bool respuesta = true;
@@ -109,11 +109,11 @@ namespace ProjectWeb_1.Metodos
                 {
                     cxn.Open();
 
-                    SqlCommand cmd = new SqlCommand("sp_ModificaTipoPropiedad", cxn);
+                    SqlCommand cmd = new SqlCommand("sp_ModificaCondicionPropiedad", cxn);
 
-                    cmd.Parameters.AddWithValue("IdTipoPropiedad", oTipoPropiedad.IdTipoPropiedad);
-                    cmd.Parameters.AddWithValue("Descripcion", oTipoPropiedad.Descripcion);
-                    cmd.Parameters.AddWithValue("Activo", oTipoPropiedad.Activo);
+                    cmd.Parameters.AddWithValue("IdCondicion", oCondicion.IdCondicion);
+                    cmd.Parameters.AddWithValue("Descripcion", oCondicion.Descripcion);
+                    cmd.Parameters.AddWithValue("Activo", oCondicion.Activo);
                     cmd.Parameters.Add("Resultado", SqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.CommandType = CommandType.StoredProcedure;
 
@@ -136,13 +136,13 @@ namespace ProjectWeb_1.Metodos
         {
             bool respuesta = true;
 
-            using (SqlConnection cxn = new SqlConnection(cnn.db))
+            using(SqlConnection cxn = new SqlConnection(cnn.db))
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("sp_BorraRegistroTipoPropiedad", cxn);
+                    SqlCommand cmd = new SqlCommand("sp_BorraRegistroCondicion", cxn);
 
-                    cmd.Parameters.AddWithValue("IdTipoPropiedad", Id);
+                    cmd.Parameters.AddWithValue("IdCondicion", Id);
                     cmd.CommandType = CommandType.StoredProcedure;
 
                     cmd.ExecuteNonQuery();
@@ -158,6 +158,5 @@ namespace ProjectWeb_1.Metodos
 
             return respuesta;
         }
-
     }
 }

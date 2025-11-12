@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\metodos\\tipopropiedadmetodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\models\\viewmodel\\tipopropiedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\models\\viewmodel\\tipopropiedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\models\\viewmodel\\tipopropiedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\clases\\cnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\clases\\cnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\metodos\\condicionmetodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\metodos\\condicionmetodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\condicioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\condicioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\models\\viewmodel\\condicionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\models\\viewmodel\\condicionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,12 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,35 +44,9 @@
               "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
               "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
               "RelativeToolTip": "ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwCoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T21:01:07.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TipoPropiedad.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T19:14:43.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cnn.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Clases\\cnn.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Clases\\cnn.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Clases\\cnn.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Clases\\cnn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T19:11:41.825Z",
+              "WhenOpened": "2025-11-12T02:22:42.573Z",
               "EditorCaption": ""
             },
             {
@@ -79,9 +57,65 @@
               "RelativeDocumentMoniker": "ProjectWeb_1\\Metodos\\TipoPropiedadMetodo.cs",
               "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Metodos\\TipoPropiedadMetodo.cs",
               "RelativeToolTip": "ProjectWeb_1\\Metodos\\TipoPropiedadMetodo.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwGAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAJAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T01:11:49.772Z",
+              "WhenOpened": "2025-11-12T02:22:39.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoPropiedad.cs",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Models\\ViewModel\\TipoPropiedad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T02:22:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CondicionMetodo.cs",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Metodos\\CondicionMetodo.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Metodos\\CondicionMetodo.cs",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Metodos\\CondicionMetodo.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Metodos\\CondicionMetodo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:09:53.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CondicionController.cs",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\CondicionController.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\CondicionController.cs",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\CondicionController.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Controllers\\CondicionController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:08:03.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CondicionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\CondicionViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Models\\ViewModel\\CondicionViewModel.cs",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Models\\ViewModel\\CondicionViewModel.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Models\\ViewModel\\CondicionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:03:45.994Z",
               "EditorCaption": ""
             }
           ]
