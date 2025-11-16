@@ -29,8 +29,17 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TipoPropiedadController.cs",
+              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
+              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
+              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
+              "RelativeToolTip": "ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T02:22:42.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,6 +53,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-08T02:20:52.345Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",

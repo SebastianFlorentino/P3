@@ -1,20 +1,160 @@
-﻿/* Set padding to keep content from hitting the edges */
-.body-content {
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+﻿/*  RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+/*  BODY GENERAL */
+body {
+    background: linear-gradient(135deg, #eaf4ff, #d2e4f8);
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    overflow-x: hidden;
+    line-height: 1.6;
+    animation: fadeIn 1s ease-in;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+/*  NAVBAR */
+.navbar {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #fff !important;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+    .nav-link:hover {
+        color: #fff !important;
+        background-color: rgba(255, 255, 255, 0.15);
+        transform: translateY(-2px);
+    }
+
+/*  HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #4facfe, #0072ff);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    margin: 40px auto;
+    max-width: 1100px;
+    animation: slideUp 1s ease-in-out;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+        opacity: 0.95;
+    }
+
+/*  BOTONES */
+.btn-main {
+    display: inline-block;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+    .btn-main:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+/*  TARJETAS Y FORMULARIOS */
+.card, .form-wrapper, .contact-info, .table {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+    .card:hover, .form-wrapper:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    /*  TABLAS */
+    .table thead {
+        background: linear-gradient(90deg, #0072ff, #00c6ff);
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .table tbody tr:hover {
+        background: #f2f8ff;
+        transition: background 0.2s ease;
+    }
+
+/*  FORMULARIOS */
+input, select, textarea {
+    border-radius: 10px !important;
+    border: 1px solid #d4dce6;
+    padding: 10px 15px !important;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+    input:focus, select:focus, textarea:focus {
+        border-color: #0072ff;
+        box-shadow: 0 0 6px rgba(0, 114, 255, 0.2);
+    }
+
+/*  FOOTER */
+.footer {
+    background: linear-gradient(120deg, #d2e4f8, #b0d3f0);
+    color: #333;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+}
+
+/*  ANIMACIONES */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

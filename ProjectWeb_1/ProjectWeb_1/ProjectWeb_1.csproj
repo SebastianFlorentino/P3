@@ -128,12 +128,17 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccederController.cs" />
     <Compile Include="Controllers\CerrarSessionController.cs" />
+    <Compile Include="Controllers\CondicionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TipoPropiedadController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Filters\VerificaSession.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Clases\cnn.cs" />
+    <Compile Include="Metodos\CondicionMetodo.cs" />
+    <Compile Include="Metodos\TipoPropiedadMetodo.cs" />
     <Compile Include="Models\dbmodel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -155,6 +160,8 @@
     <Compile Include="Models\USERS.cs">
       <DependentUpon>dbmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ViewModel\CondicionViewModel.cs" />
+    <Compile Include="Models\ViewModel\TipoPropiedad.cs" />
     <Compile Include="Models\ViewModel\UsersViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -235,6 +242,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\CerrarSession\" />
+    <Folder Include="Views\Condicion\" />
+    <Folder Include="Views\TipoPropiedad\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

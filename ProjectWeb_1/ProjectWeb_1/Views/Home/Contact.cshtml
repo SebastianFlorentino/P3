@@ -1,19 +1,76 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contacto";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
 
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+<main class="container py-5 fade-in">
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+    <!-- HERO -->
+    <section class="hero text-center mb-5 rounded-4 shadow-lg">
+        <div class="hero-content">
+            <h1 class="fw-bold mb-3">Hablemos de tu proyecto</h1>
+            <p class="lead">Estamos listos para ayudarte a transformar tus ideas en soluciones digitales de alto impacto.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section slide-up">
+        <div class="row g-4 align-items-start">
+
+            <!-- FORMULARIO -->
+            <div class="col-md-7">
+                <div class="form-wrapper p-4 shadow-sm rounded-4 bg-white">
+                    <h3 class="fw-semibold mb-4 text-primary"><i class="bi bi-envelope-paper"></i> Envíanos un mensaje</h3>
+
+                    <form asp-action="SubmitContact" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-semibold">Nombre</label>
+                            <input type="text" id="name" name="Name" class="form-control" placeholder="Tu nombre completo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold">Correo Electrónico</label>
+                            <input type="email" id="email" name="Email" class="form-control" placeholder="tucorreo@ejemplo.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label fw-semibold">Mensaje</label>
+                            <textarea id="message" name="Message" class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-main w-100">
+                            <i class="bi bi-send-fill me-1"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- INFORMACIÓN DE CONTACTO -->
+            <div class="col-md-5">
+                <div class="contact-info p-4 shadow-sm rounded-4 bg-white">
+                    <h3 class="fw-semibold mb-3 text-primary"><i class="bi bi-geo-alt-fill"></i> Nuestras Oficinas</h3>
+                    <p class="text-muted">
+                        Calle Proyecto #42, Santo Domingo Este, R.D.<br />
+                        <i class="bi bi-telephone"></i> +1 (809) 555-0100
+                    </p>
+
+                    <h3 class="fw-semibold mb-3 text-primary"><i class="bi bi-envelope-fill"></i> Correo de Contacto</h3>
+                    <p>
+                        <a href="mailto:soporte@tuempresa.com" class="text-decoration-none text-dark">
+                            <i class="bi bi-headset"></i> soporte@tuempresa.com
+                        </a><br />
+                        <a href="mailto:info@tuempresa.com" class="text-decoration-none text-dark">
+                            <i class="bi bi-info-circle"></i> info@tuempresa.com
+                        </a>
+                    </p>
+
+                    <div class="mt-4">
+                        <h5 class="fw-semibold mb-2"><i class="bi bi-clock"></i> Horario</h5>
+                        <p class="text-muted mb-0">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                        <p class="text-muted">Sábados: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
