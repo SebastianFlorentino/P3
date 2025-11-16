@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\",
+  "WorkspaceRootPath": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\asnei\\source\\repos\\p3\\projectweb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\fseba\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\2025-c3\\projectweb_1\\projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\controllers\\accedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
               "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
               "RelativeToolTip": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-08T02:20:52.345Z",
               "EditorCaption": ""
@@ -49,24 +49,23 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AccederController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
+              "DocumentMoniker": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
               "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\AccederController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
+              "ToolTip": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\AccederController.cs",
               "RelativeToolTip": "ProjectWeb_1\\Controllers\\AccederController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T02:20:05.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T02:20:05.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Query.cshtml",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
+              "DocumentMoniker": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
               "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
+              "ToolTip": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Views\\User\\Query.cshtml",
               "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Query.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-07T01:48:36.412Z",
               "EditorCaption": ""
@@ -75,14 +74,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProjectWeb_1\\Controllers\\UserController.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAkwGoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T01:49:55.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T01:49:55.992Z"
             }
           ]
         }
