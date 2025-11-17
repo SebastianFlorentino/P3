@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|c:\\users\\asnei\\source\\repos\\p3\\projectweb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC66376-FFE5-4764-8D81-6449F2D85896}|ProjectWeb_1\\ProjectWeb_1.csproj|solutionrelative:projectweb_1\\views\\user\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -29,17 +29,8 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TipoPropiedadController.cs",
-              "DocumentMoniker": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
-              "RelativeDocumentMoniker": "ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
-              "ToolTip": "C:\\Users\\fseba\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\2025-C3\\ProjectWeb_1\\ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
-              "RelativeToolTip": "ProjectWeb_1\\Controllers\\TipoPropiedadController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T02:22:42.573Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -49,14 +40,10 @@
               "RelativeDocumentMoniker": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
               "ToolTip": "C:\\Users\\asnei\\source\\repos\\P3\\ProjectWeb_1\\ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
               "RelativeToolTip": "ProjectWeb_1\\Views\\Acceder\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-08T02:20:52.345Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -80,8 +67,7 @@
               "RelativeToolTip": "ProjectWeb_1\\Views\\User\\Query.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T01:48:36.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T01:48:36.412Z"
             },
             {
               "$type": "Document",
